@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`outputScoresInOrder file length is less than selection matches snapshot 1`] = `
+Array [
+  Object {
+    "id": "085a11e1b82b441184f4a193a3c9a13c",
+    "score": 13214012,
+  },
+  Object {
+    "id": "84a0ccfec7d1475b8bfcae1945aea8f0",
+    "score": 11446512,
+  },
+  Object {
+    "id": "7ec85fe3aa3c4dd599e23111e7abf5c1",
+    "score": 11269569,
+  },
+  Object {
+    "id": "f812d487de244023a6a713e496a8427d",
+    "score": 11027069,
+  },
+  Object {
+    "id": "3c867674494e4a7aac9247a9d9a2179c",
+    "score": 10622876,
+  },
+]
+`;
+
+exports[`outputScoresInOrder repeated scores matches snapshot 1`] = `
+Array [
+  Object {
+    "id": "last",
+    "score": 10622876,
+  },
+  Object {
+    "id": "first",
+    "score": 10622876,
+  },
+]
+`;
