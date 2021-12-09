@@ -1,7 +1,15 @@
-interface I {
-  test: string;
-}
+import * as fs from "fs";
+import * as path from "path";
+import { outputScoresInOrder } from "./outputScoresInOrder";
 
-export const findHighestScore = () => {
-  console.log("test");
-};
+const args = process.argv;
+
+const filename = args[2];
+
+const numberOfLines = parseInt(args[3]);
+
+const fileContent = fs.readFileSync(path.join(__dirname, filename), "utf-8");
+
+const result = outputScoresInOrder(fileContent, numberOfLines);
+
+console.log(JSON.stringify(result, null, 2));
