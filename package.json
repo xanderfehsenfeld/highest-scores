@@ -1,0 +1,19 @@
+{
+  "name": "highest-scores",
+  "version": "1.0.0",
+  "description": "Given a data file containing scored records, in your favorite programming language, write a program to output the N highest record IDs & scores by score in descending order, highest score first.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xanderfehsenfeld/highest-scores.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xanderfehsenfeld/highest-scores/issues"
+  },
+  "homepage": "https://github.com/xanderfehsenfeld/highest-scores#readme"
+}
