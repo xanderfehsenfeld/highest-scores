@@ -4,7 +4,8 @@
   "description": "Given a data file containing scored records, in your favorite programming language, write a program to output the N highest record IDs & scores by score in descending order, highest score first.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/xanderfehsenfeld/highest-scores/issues"
   },
-  "homepage": "https://github.com/xanderfehsenfeld/highest-scores#readme"
+  "homepage": "https://github.com/xanderfehsenfeld/highest-scores#readme",
+  "devDependencies": {
+    "jest": "^27.4.3",
+    "ts-jest": "^27.1.1",
+    "typescript": "^4.5.2"
+  }
 }
