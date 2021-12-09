@@ -1,6 +1,24 @@
 # Highest Scores
 
-​
+### Install
+
+`npm i`
+
+### Test
+
+`npm test`
+
+### Build
+
+`npm run build`
+
+### Run
+
+`node lib/index.js <relative path to file> <# of lines to select>`
+
+### Run example
+
+`node lib/index.js ../src/__tests__/repeatedScores.data 10`
 
 ### Problem Text:
 
