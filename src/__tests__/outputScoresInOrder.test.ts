@@ -1,6 +1,6 @@
 import * as path from "path";
 import * as fs from "fs";
-import { outputScoresInOrder } from "./outputScoresInOrder";
+import { outputScoresInOrder } from "../outputScoresInOrder";
 
 describe("outputScoresInOrder", () => {
   const fileContentWithoutError = fs.readFileSync(
