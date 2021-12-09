@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xanderfehsenfeld/highest-scores.git"
   },
-  "author": "",
+  "author": "Xander Fehsenfeld",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/xanderfehsenfeld/highest-scores/issues"
